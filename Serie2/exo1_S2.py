@@ -1,5 +1,6 @@
 note=int(input("Saisissez la valeur :"))
 
+#tests de supériorité
 if note <= 10:
     print("très faible")
 elif note <= 30:
