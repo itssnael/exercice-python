@@ -1,12 +1,13 @@
 ng = input("Choisissez le premier nombre : ")
 nd = input("Choisissez le deuxième nombre : ")
 
+# Vérifie si les deux nombres sont entier
 if not (ng.isnumeric() and nd.isnumeric()):
     print("Erreur : les nombres doivent être des nombres entiers")
     exit()
-
-ng = int(ng)
-nd = int(nd)
+else :
+    ng = int(ng)
+    nd = int(nd)
 
 resultat = 0
 
