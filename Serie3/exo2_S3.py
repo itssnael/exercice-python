@@ -8,6 +8,12 @@ def format_identite(patronyme):
     return f"{prenom} {nom}"
 #(Alternative en une seule ligne : return patronyme.replace(".", " ").upper())
 
+#CORECTION DU PROF
+#Remplacement du point par un espace et conversion en majuscules
+#def format_identite(patronyme):
+    #parties=patronyme.replace("."," ")
+    #return parties.upper()
+
 def main():
     adresse_mail = input("Saisissez votre adresse mail : ")
     identite = extraire_identite(adresse_mail)
