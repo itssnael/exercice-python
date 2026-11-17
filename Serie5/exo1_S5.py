@@ -33,4 +33,4 @@ temp_kelvin = float(balise_temp.text)
 temp_celsius = round(temp_kelvin - 273.15)
 
 # Étape 8 : Affichage du résultat final selon l'heure de consultation avec le style demandé[cite: 12]
-print(f"La température prévisionnelle à {heure_cible.hour}h sera de {temp_celsius}° Celsius.")
+print(f"La température prévisionnelle de Paris à {heure_cible.hour}h sera de {temp_celsius}° Celsius.")
